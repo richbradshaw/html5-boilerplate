@@ -537,6 +537,8 @@ AddDefaultCharset utf-8
 # ------------------------------------------------------------------------------
 
 # Prevent mobile network providers from modifying the website's content.
+# This will also disabled Chrome for Android's opt in Data Compression
+# Proxy: https://developers.google.com/chrome/mobile/docs/data-compression
 # http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9.5.
 
 # <IfModule mod_headers.c>
